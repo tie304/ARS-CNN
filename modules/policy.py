@@ -1,3 +1,4 @@
+import sys
 import numpy as np
 
 # Building the AI
@@ -31,5 +32,8 @@ class Policy:
 
     def load(self):
         self.theta = np.load(self.hp.weights_save_dir)
+
+
+
 
 
