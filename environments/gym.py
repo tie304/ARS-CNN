@@ -1,5 +1,6 @@
 import gym
 from modules.environment import Environment
+from modules.normalize import Normalizer
 
 
 class OpenAIGym(Environment):
@@ -14,6 +15,10 @@ class OpenAIGym(Environment):
 
     def __repr__(self):
         return f"<OpenAIGym: {self.env_name}>"
+
+    def determine_ars_input(self, shape):
+        pass
+
 
     def make(self):
         env = gym.make(self.env_name)

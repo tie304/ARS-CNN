@@ -3,14 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5df6db3e-474a-4f73-b6ea-e3adbc444bc9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/evaluate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/network.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environments/gym.py" beforeDir="false" afterPath="$PROJECT_DIR$/environments/gym.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/normalize.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/normalize.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/policy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parameters.py" beforeDir="false" afterPath="$PROJECT_DIR$/parameters.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +54,7 @@
       <workItem from="1571421085332" duration="10000" />
       <workItem from="1571493563788" duration="15596000" />
       <workItem from="1573864205560" duration="114000" />
-      <workItem from="1575318857125" duration="4533000" />
+      <workItem from="1575318857125" duration="11391000" />
     </task>
     <servers />
   </component>

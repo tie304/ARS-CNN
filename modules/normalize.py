@@ -33,7 +33,7 @@ class Normalizer:
         new_obs = Image.fromarray(obs)
         new_obs = new_obs.convert('L')
         new_obs = np.array(new_obs)
-        new_obs = new_obs.reshape(1, 96, 96) # TODO make reshape dynamic and not hard coded to image shape
+        new_obs = new_obs.reshape(1, obs.shape[0], obs.shape[1])
         new_obs = self.cnn(new_obs).to(self.hp.device)
         new_obs = new_obs.detach().numpy()
         return new_obs[0]
