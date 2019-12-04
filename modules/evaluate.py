@@ -16,7 +16,6 @@ def evaluate(n_steps):
     hp = Hp()
     np.random.seed(hp.seed)
     env = OpenAIGym(hp.env_name)
-    #env = wrappers.Monitor(env, monitor_dir, force=True)
     nb_inputs = env.observation_space.shape[0]
     if hp.conv_input:
         # create dummy image
